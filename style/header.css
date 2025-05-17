@@ -1,0 +1,61 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: red;
+  }
+  .yt-logo{
+    width: 50px;
+  }
+  
+  .search-bar {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    max-width: 600px;
+  }
+  
+  .bar {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  .search-button {
+    background: #f8f8f8;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    padding: 8px;
+  }
+  
+  .other {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .material-icons {
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .profile-icon {
+    background-color: #3ea6ff;
+    color: white;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    cursor: pointer;
+  }
